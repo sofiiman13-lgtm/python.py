@@ -1,0 +1,17 @@
+s='Good Morning good Afternoon'
+print(s[-14:-22-1:-2])
+
+
+
+s=list(input("enter a name"))
+print(s)
+
+s=eval(input("enter a name:"))
+print(s,type(s))
+
+
+s=int(input("enter a number:"))
+if s%2==0:
+print('even')
+else:
+print('odd')
